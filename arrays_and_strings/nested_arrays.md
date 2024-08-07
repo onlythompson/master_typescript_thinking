@@ -6,9 +6,9 @@ Welcome, data structure adventurers! Today, we're diving into the fascinating wo
 
 Nested arrays are arrays within arrays. Just like how a Russian nesting doll contains smaller dolls inside, a nested array contains other arrays as its elements. It's like creating a family tree of data!
 
-```python
-simple_array = [1, 2, 3, 4]  # A regular array
-nested_array = [1, [2, 3], [4, [5, 6]]]  # A nested array
+```TypeScript
+let simple_array : number[] = [1, 2, 3, 4]  //A regular array
+let nested_array : (number | number[])[] = [1, [2, 3], [4, [5, 6]]]  //A nested array
 ```
 
 ## The Magical Properties of Nested Arrays 🌟
@@ -25,8 +25,8 @@ Let's embark on a quest to master nested arrays!
 
 ### Level 1: Creating Your First Nested Array 🏰
 
-```python
-treasure_map = [
+```TypeScript
+const treasure_map : string[][] = [
     ["🌳", "🌳", "🌳"],
     ["🌳", "💎", "🌳"],
     ["🌳", "🌳", "🌳"]
@@ -39,16 +39,16 @@ Congratulations! You've just created a 3x3 grid representing a treasure map hidd
 
 To find the treasure in our map:
 
-```python
-treasure_location = treasure_map[1][1]  # 💎
-print(f"You found the treasure: {treasure_location}")
+```TypeScript
+const treasure_location = treasure_map[1][1]  # 💎
+console.log("You found the treasure:", treasure_location)
 ```
 
 ### Level 3: Modifying the Nested Landscape 🏞️
 
 Let's add a river to our map:
 
-```python
+```TypeScript
 treasure_map[0][1] = "🌊"
 treasure_map[1][0] = "🌊"
 treasure_map[2][1] = "🌊"
@@ -56,7 +56,7 @@ treasure_map[2][1] = "🌊"
 
 Now our updated map looks like:
 
-```python
+```TypeScript
 [
     ["🌳", "🌊", "🌳"],
     ["🌊", "💎", "🌳"],
@@ -70,33 +70,30 @@ Now our updated map looks like:
 
 To explore every nook and cranny of our nested array:
 
-```python
-def explore_map(nested_array):
-    for row in range(len(nested_array)):
-        for col in range(len(nested_array[row])):
-            print(f"At position [{row}][{col}], we found: {nested_array[row][col]}")
+```TypeScript
+const explore_map = (nested_array: string[][]) =>{
+    const rows = nested_array.length; //nos of rows 
+    const cols = nested_array[0].length; //nos of columns
+    for(let rowIndex = 0; rowIndex < rows; rowIndex++){
+        for(let colIndex = 0; colIndex < cols; colIndex++){
+            console.log(`At position [${rowIndex}][${colIndex}], we found: ${nested_array[rowIndex][colIndex]}`)
+        }
+    }
+}
 
 explore_map(treasure_map)
 ```
 
-### 2. The Magic Wand: List Comprehension ✨
+### 2. Crafting Enchantments: The Power of Nested Arrays ✨
 
-Create a 5x5 grid of mystical forests with a single line of code:
+Summon a sprawling 5x5 grid of mystical forests with a single, elegant incantation:
 
-```python
-magical_forest = [["🌳" for _ in range(5)] for _ in range(5)]
+```TypeScript
+const magical_forest : string[][] = Array.from({ length: 5}, () =>{
+    Array.from({ length: 5}, () => "🌳" )
+})
 ```
 
-### 3. The Shape-Shifter: Numpy Arrays 🐉
-
-For the advanced adventurers, Numpy offers powerful tools for handling multi-dimensional arrays:
-
-```python
-import numpy as np
-
-np_treasure_map = np.array(treasure_map)
-print(np_treasure_map.shape)  # Output: (3, 3)
-```
 
 ## Real-World Adventures with Nested Arrays 🌍
 

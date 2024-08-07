@@ -1,10 +1,10 @@
-# Mastering Algorithms in Python 🐍
+# Mastering Algorithms in TypeScript 🐍
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/onlythompson/master_python_thinking)](https://github.com/onlythompson/master_python_thinking/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/onlythompson/master_python_thinking)](https://github.com/onlythompson/master_python_thinking/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/onlythompson/master_typescript_thinking)](https://github.com/onlythompson/master_typescript_thinking/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/onlythompson/master_typescript_thinking)](https://github.com/onlythompson/master_typescript_thinking/network/members)
 
-Welcome to your one-stop shop for mastering algorithms in Python! This repository is your companion for learning, understanding, and implementing a variety of algorithms through hands-on code examples.
+Welcome to your one-stop shop for mastering algorithms in TypeScript! This repository is your companion for learning, understanding, and implementing a variety of algorithms through hands-on code examples.
 
 ## 🚀 Why Learn Algorithms?
 
@@ -15,7 +15,7 @@ Welcome to your one-stop shop for mastering algorithms in Python! This repositor
 ## 📚  What You'll Find
 
 * **Intuitive Explanations:** Each algorithm comes with a clear explanation of how it works and why it's important.
-* **Python Implementations:** See the algorithms come to life through well-structured and commented Python code.
+* **TypeScript Implementations:** See the algorithms come to life through well-structured and commented TypeScript code.
 * **Visualizations (where applicable):** Gain a deeper understanding through helpful visuals that illustrate the algorithm's steps.
 * **Practice Problems:** Solidify your knowledge by applying algorithms to solve interesting challenges.
 * **Discussions and Questions:**  Feel free to start discussions or ask questions in the [Discussions] tab. We're a community of learners!
@@ -95,7 +95,7 @@ There is a famous saying: "Data Structures can be the difference between having 
 ## 💡 How to Use This Repository
 
 1. **Fork the repository:** Click the "Fork" button at the top right to create your copy.
-2. **Clone your fork:** `git clone https://github.com/onlythompson/master_python_thinking.git`
+2. **Clone your fork:** `git clone https://github.com/onlythompson/master_typescript_thinking.git`
 3. **Explore and Learn:** Dive into the folders and start exploring the algorithm implementations.
 4. **Practice:**  Solve the practice problems to test your understanding.
 5. **Contribute:**  See a way to improve an existing implementation or add a new algorithm? Submit a pull request!
@@ -103,7 +103,7 @@ There is a famous saying: "Data Structures can be the difference between having 
 ## 📘 Learning Resources
 
 - [Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms-third-edition) by CLRS
-- [Python Data Structures and Algorithms](https://www.packtpub.com/product/python-data-structures-and-algorithms/9781786467355) by Benjamin Baka
+- [TypeScript Data Structures and Algorithms](https://www.packtpub.com/product/typescript-data-structures-and-algorithms/9781786467355) by Benjamin Baka
 - [LeetCode](https://leetcode.com/) for practicing algorithmic problems
 
 ## 🤝 Let's Learn Together

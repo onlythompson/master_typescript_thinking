@@ -7,14 +7,15 @@ Hmm... what does this jargons means?
 
 Imagine you have a magical toolbox where each compartment can hold anything you want. That's an array! 🧰✨
 
-```python
-treasure_chest = [💎, 🗡️, 🔮, 🏆, 🕯️]  # Your digital treasure trove!
+```typescript
+let treasure_chest:any[] = [💎, 🗡️, 🔮, 🏆, 🕯️]  # Your digital treasure trove!
 ```
 
 At the core, arrays can be thought of as fixed-size collection of elements stored in table like form with only one row.  
 
-```
-numbers = [5, 12, 8, 22, 1]  # Create an array of numbers
+```typescript
+let num_arr: number[] = [5, 12, 8, 22, 1]  # Create an array of numbers
+let nums_arr = [2,4,6,8] //Typescript Infers the type as number[]
 ```
 ![Simple array representation](/arrays_and_strings/sample_array_primary.png)
 
@@ -24,8 +25,8 @@ Lightning-Fast Access ⚡: Want the third item? Boom! It's there in a snap. O(1)
 Orderly Chaos 📊: Everything has its place. First in, first served!
 Shape-Shifting Abilities 🦎 (in languages like Python): Mix and match types like a mad scientist!
 
-```python
-chimera = [42, "Stardust", True, [🌟, 🌙, ☀️]]  # A true digital chimera!
+```TypeScript
+let chimera: any[] = [42, "Stardust", True, [🌟, 🌙, ☀️]]  # A true digital chimera!
 ```
 The Kryptonite ☠️
 
@@ -44,21 +45,24 @@ Strings are like arrays in disguise. They're the secret agents of the programmin
 Many languages represent strings as arrays of characters.
 While strings might seem like a separate data type, they are often implemented internally as arrays of characters. Each character in a string occupies a specific position (index) within this array. This underlying array-like structure enables efficient access to individual characters and substrings.
 
-```
-# Python: Strings are treated like immutable sequences (similar to arrays)
-message = "Hello, world!"
+```TypeScript
+// TypeScript: Strings are treated like immutable sequences (similar to arrays)
+let message = "Hello, world!"
 
-print(message[0])      # Output: H (First character) #--The plot thickens!
-print(message[7:12])   # Output: world (Substring) #--Unveiling the mystery!
+console.log(message[0])      # Output: H (First character) #--The plot thickens!
+console.log(message.substring(6, 12))   # Output: world (Substring) #--Unveiling the mystery!
 
 ```
 
 ### Flexibility in Dynamically Typed Languages:
 
-In dynamically typed languages like Python and JavaScript, arrays (often called lists in Python) are more flexible. They can store elements of different data types within the same array. This means you can mix numbers, strings, booleans, and even other objects in a single array.
+In dynamically typed languages like Python and JavaScript, arrays (often called lists in Python) are more flexible. They can store elements of different data types within the same array. This means you can mix numbers, strings, booleans, and even other objects in a single array.  
 
-```
-mixed_data = [42, "Hello", True, [1, 2, 3]] 
+Leveraging its JavaScript heritage, TypeScript allows you to construct arrays with the same freedom as you would in JavaScript.  This translates to the ability to store elements of different types within the same array, offering a high degree of adaptability when managing data.
+
+
+```TypeScript
+let mixed_data : any[] = [42, "Hello",true, [1, 2, 3]] 
 ```
 
 ### Characteristics, Strengths, Limitations and Real-World Applications
