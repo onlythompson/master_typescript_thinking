@@ -1,4 +1,4 @@
-# Mastering Algorithms in TypeScript 🐍
+# Mastering Algorithms in TypeScript 🛠️
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/onlythompson/master_typescript_thinking)](https://github.com/onlythompson/master_typescript_thinking/stargazers)
